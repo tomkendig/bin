@@ -1,0 +1,2 @@
+ectool getUsers --includeAll 0 | grep .userName. #count users
+ectool getServerStatus --serverStateOnly true #check if the database is up

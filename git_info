@@ -1,0 +1,23 @@
+#Instructions to upgrade info.
+rm -rf /media/FastDrive/home/web/info
+mkdir -p /media/FastDrive/home/web/info
+cd /media/FastDrive/home/web/info
+git init #start out as a git repositor
+git clone https://github.com/tomkendig/info
+git status
+cp -pr /media/data/home/web/info .
+git add -A
+git commit -m 'V1.0 info project with all the subdirectories populated'
+git status
+git log
+git push info master
+#git checkout -b gh-pages
+git pull info gh-pages
+cp -pr /media/data/home/web/info .
+git add -A
+git push info gh-pages
+git checkout -b master
+#git branch -D gh-pages #delete your local branch
+
+#git push gh-pages info
+cd /media/data/home/GitRepo

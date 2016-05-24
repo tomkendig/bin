@@ -1,0 +1,115 @@
+---------------------RESOURCES----------------------
+<response requestId="1">
+    <resource>
+      <resourceId>604</resourceId>
+      <resourceName>192.168.16.176</resourceName>
+      <agentState>
+        <alive>0</alive>
+        <code>AGENT_TIMEOUT</code>
+        <details>A command to the agent timed out: Unable to connect to agent: timed out</details>
+        <message>Unable to connect to agent: timed out</message>
+        <state>down</state>
+        <time>2010-01-25T20:42:58.592Z</time>
+      </agentState>
+      <createTime>2010-01-25T20:30:07.656Z</createTime>
+      <description />
+      <hostName>192.168.16.176</hostName>
+      <lastModifiedBy>admin</lastModifiedBy>
+      <modifyTime>2010-01-25T20:42:58.594Z</modifyTime>
+      <owner>admin</owner>
+      <port />
+      <proxyPort />
+      <resourceDisabled>0</resourceDisabled>
+      <shell />
+      <stepCount>0</stepCount>
+      <stepLimit />
+      <useSSL>1</useSSL>
+      <workspaceName />
+      <propertySheetId>9236</propertySheetId>
+    </resource>
+    <resource>
+      <resourceId>603</resourceId>
+      <resourceName>chronic2</resourceName>
+      <agentState>
+        <alive>1</alive>
+        <details>The agent is alive</details>
+        <message>The agent is alive</message>
+        <pingToken>1265155418</pingToken>
+        <protocolVersion>5</protocolVersion>
+        <state>alive</state>
+        <time>2010-01-25T20:44:37.025Z</time>
+        <version>3.5.1.30596</version>
+      </agentState>
+      <createTime>2010-01-25T20:24:48.423Z</createTime>
+      <description />
+      <hostName>chronic2</hostName>
+      <lastModifiedBy>admin</lastModifiedBy>
+      <modifyTime>2010-01-25T20:44:37.027Z</modifyTime>
+      <owner>admin</owner>
+      <port />
+      <proxyPort />
+      <resourceDisabled>0</resourceDisabled>
+      <shell />
+      <stepCount>0</stepCount>
+      <stepLimit />
+      <useSSL>1</useSSL>
+      <workspaceName />
+      <propertySheetId>9233</propertySheetId>
+    </resource>
+    <resource>
+      <resourceId>1</resourceId>
+      <resourceName>local</resourceName>
+      <agentState>
+        <alive>1</alive>
+        <details>The agent is alive</details>
+        <message>The agent is alive</message>
+        <pingToken>1265139889</pingToken>
+        <protocolVersion>5</protocolVersion>
+        <state>alive</state>
+        <time>2009-09-18T17:12:31.704Z</time>
+        <version>3.5.1.30596</version>
+      </agentState>
+      <createTime>2009-09-18T17:12:31.669Z</createTime>
+      <description>Resource for running jobs on server</description>
+      <hostName>localhost</hostName>
+      <lastModifiedBy>admin</lastModifiedBy>
+      <modifyTime>2009-09-18T17:12:31.800Z</modifyTime>
+      <owner>admin</owner>
+      <port />
+      <proxyPort />
+      <resourceDisabled>0</resourceDisabled>
+      <stepCount>0</stepCount>
+      <stepLimit />
+      <useSSL>1</useSSL>
+      <propertySheetId>8</propertySheetId>
+    </resource>
+    <resource>
+      <resourceId>2</resourceId>
+      <resourceName>remote</resourceName>
+      <agentState>
+        <alive>0</alive>
+        <code>AGENT_IO_CONNECTION_REFUSED</code>
+        <details>The agent machine refused the connection: Connection refused</details>
+        <message>Connection refused</message>
+        <pingToken>1260319374</pingToken>
+        <protocolVersion>5</protocolVersion>
+        <state>down</state>
+        <time>2009-09-18T17:19:03.198Z</time>
+      </agentState>
+      <createTime>2009-09-18T17:19:03.196Z</createTime>
+      <description />
+      <hostName>192.168.7.105</hostName>
+      <lastModifiedBy>admin</lastModifiedBy>
+      <modifyTime>2009-09-18T17:19:21.025Z</modifyTime>
+      <owner>admin</owner>
+      <port />
+      <proxyPort />
+      <resourceDisabled>0</resourceDisabled>
+      <shell />
+      <stepCount>0</stepCount>
+      <stepLimit />
+      <useSSL>1</useSSL>
+      <workspaceName />
+      <propertySheetId>393</propertySheetId>
+    </resource>
+  </response>

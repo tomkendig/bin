@@ -1,0 +1,21 @@
+#!/usr/local/perl
+use ElectricCommander ();
+env | sort
+echo Show all jobId properties with ectool
+ectool getProperties --jobId $COMMANDER_JOBID | grep property
+echo Show all projectName properties with ectool
+ectool getProperties --projectName "PropertiesSandbox"
+echo Show all proceureName properties with ectool
+ectool getProperties --projectName "PropertiesSandbox" --procedureName PropertiesShow
+echo Show all stepName properties with ectool
+ectool getProperties --projectName "PropertiesSandbox" --procedureName PropertiesShow --stepName "StepEnvironment"
+echo Show all jobStepId properties with ectool
+ectool getProperties --jobStepId $COMMANDER_JOBSTEPID
+echo Show all userName properties with ectool
+ectool getProperties --userName $USER
+echo Show all resourceName properties with ectool
+ectool getProperties --resourceName local
+echo Show all workspaceName properties with ectool
+ectool getProperties --workspaceName $COMMANDER_WORKSPACE_NAME
+', 
+$ec->runProcedure("PropertiesSandbox", { procedureName => 'PropertiesShow'});

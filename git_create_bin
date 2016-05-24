@@ -1,0 +1,19 @@
+#Instructions to create bin repository.
+rm -rf /media/FastDrive/home/Dads/bin
+cd /media/FastDrive/home/Dads
+cp -pr /media/data/home/ProfessionalDevelopment/ElectricCloudAfterLayoffSavedDocs/bin /media/FastDrive/home/Dads
+cp -pr /media/data/home/GitRepo/bin/* /media/FastDrive/home/Dads/bin
+cp -pr /media/data/home/bin/* /media/FastDrive/home/Dads/bin
+cd bin
+#curl -u 'tomkendig' https://api.github.com/user/repos -d '{"name":"bin"}'
+git init #start out as a git repository
+git add .
+git commit -a -m 'V1.0 bin - all things bin'
+git remote add origin https://github.com/tomkendig/bin.git
+git remote -v
+git push -u origin master
+git checkout --orphan gh-pages
+git add .
+git commit -a -m 'V1.0 bin - all things bin'
+git push -u origin gh-pages
+cd /media/data/home/GitRepo/bin

@@ -1,0 +1,4 @@
+grep cmdr /var/log/ftp.log | grep -v .txt | grep -v .pdf | grep -v "192.168.2.12" | grep cmdr-3.2.0 | grep -v beta | awk '{print $6}' | awk -F"@" '{print $1}' | awk -F"(" '{print $2}' | sort -u #who downloaded a release?
+grep cmdr /var/log/ftp.log | grep -v .txt | grep -v .pdf | grep -v Can | grep cmdr-3.2.0 | grep -v beta | awk '{print $6 $8}' | awk -F"/" '{print $1 $5}' | sort -u #a smarter look for release downloads
+cat .txt sed /projectDetails\?
+

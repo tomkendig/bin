@@ -1,0 +1,788 @@
+<response requestId="1">
+    <job>
+      <jobId>169520</jobId>
+      <jobName>job_169520_200905121607</jobName>
+      <createTime>2009-05-12T23:07:45.353Z</createTime>
+      <directoryName>job_169520_200905121607</directoryName>
+      <elapsedTime>107359</elapsedTime>
+      <finish>2009-05-12T23:09:32.712Z</finish>
+      <lastModifiedBy>admin</lastModifiedBy>
+      <launchedByUser>tkendig</launchedByUser>
+      <modifyTime>2009-05-12T23:09:32.852Z</modifyTime>
+      <outcome>success</outcome>
+      <owner>tkendig</owner>
+      <priority>normal</priority>
+      <procedureName>Simple</procedureName>
+      <start>2009-05-12T23:07:45.353Z</start>
+      <status>completed</status>
+      <aclId>6780672</aclId>
+      <liveProcedure>Simple</liveProcedure>
+      <notesId>2979270</notesId>
+      <projectName>Support</projectName>
+      <propertySheet>
+        <propertySheetId>2979271</propertySheetId>
+        <createTime>2009-05-12T23:07:45.353Z</createTime>
+        <lastModifiedBy>tkendig</lastModifiedBy>
+        <modifyTime>2009-05-12T23:07:45.353Z</modifyTime>
+        <owner>tkendig</owner>
+        <aclId>6780675</aclId>
+      </propertySheet>
+      <jobStep>
+        <jobStepId>3808857</jobStepId>
+        <stepName>ectoolParSetup</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool setProperty timingP "scratchP"
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.447Z</createTime>
+        <elapsedTime>13734</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:07:59.712Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolParSetup.3808857.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.852Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolParSetup.3808857-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:07:45.556Z</runnable>
+        <start>2009-05-12T23:07:45.978Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>422</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780676</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolParSetup</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+        <propertySheet>
+          <propertySheetId>2979272</propertySheetId>
+          <createTime>2009-05-12T23:07:55.869Z</createTime>
+          <lastModifiedBy>project: Support</lastModifiedBy>
+          <modifyTime>2009-05-12T23:07:55.900Z</modifyTime>
+          <owner>project: Support</owner>
+          <aclId>6780692</aclId>
+          <property>
+            <propertyId>8956341</propertyId>
+            <propertyName>timingP</propertyName>
+            <createTime>2009-05-12T23:07:55.869Z</createTime>
+            <expandable>1</expandable>
+            <lastModifiedBy>project: Support</lastModifiedBy>
+            <modifyTime>2009-05-12T23:07:55.869Z</modifyTime>
+            <owner>project: Support</owner>
+            <value>scratchP</value>
+          </property>
+        </propertySheet>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808858</jobStepId>
+        <stepName>EchoP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+echo step OS overhead, expect one second or under
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.447Z</createTime>
+        <elapsedTime>1047</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:01.306Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>EchoP.3808858.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.852Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>EchoP.3808858-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:07:59.978Z</runnable>
+        <start>2009-05-12T23:08:00.259Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>281</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780677</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>EchoP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808859</jobStepId>
+        <stepName>ectoolVersionP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool --version
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.447Z</createTime>
+        <elapsedTime>15344</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:15.603Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolVersionP.3808859.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolVersionP.3808859-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:07:59.978Z</runnable>
+        <start>2009-05-12T23:08:00.259Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>281</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780678</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolVersionP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808860</jobStepId>
+        <stepName>ectoolDatabaseP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool getServerStatus --serverStateOnly true
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.447Z</createTime>
+        <elapsedTime>29422</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:30.025Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolDatabaseP.3808860.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolDatabaseP.3808860-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:07:59.994Z</runnable>
+        <start>2009-05-12T23:08:00.603Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>609</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780679</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolDatabaseP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808861</jobStepId>
+        <stepName>ectoolGetPropertyP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool getProperty projectName
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.447Z</createTime>
+        <elapsedTime>29031</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:29.634Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolGetPropertyP.3808861.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolGetPropertyP.3808861-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:07:59.994Z</runnable>
+        <start>2009-05-12T23:08:00.603Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>609</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780680</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolGetPropertyP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808862</jobStepId>
+        <stepName>ectoolSetPropertyP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool setProperty timing "scratch"
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.447Z</createTime>
+        <elapsedTime>24140</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:24.712Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolSetPropertyP.3808862.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolSetPropertyP.3808862-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:00.009Z</runnable>
+        <start>2009-05-12T23:08:00.572Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>563</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780681</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolSetPropertyP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+        <propertySheet>
+          <propertySheetId>2979273</propertySheetId>
+          <createTime>2009-05-12T23:08:21.337Z</createTime>
+          <lastModifiedBy>project: Support</lastModifiedBy>
+          <modifyTime>2009-05-12T23:08:21.353Z</modifyTime>
+          <owner>project: Support</owner>
+          <aclId>6780693</aclId>
+          <property>
+            <propertyId>8956343</propertyId>
+            <propertyName>timing</propertyName>
+            <createTime>2009-05-12T23:08:21.337Z</createTime>
+            <expandable>1</expandable>
+            <lastModifiedBy>project: Support</lastModifiedBy>
+            <modifyTime>2009-05-12T23:08:21.337Z</modifyTime>
+            <owner>project: Support</owner>
+            <value>scratch</value>
+          </property>
+        </propertySheet>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808863</jobStepId>
+        <stepName>ectoolDeletePropertyP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool deleteProperty timingP
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.462Z</createTime>
+        <elapsedTime>30000</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:30.603Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolDeleteProperty.3808863.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolDeleteProperty.3808863-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:00.009Z</runnable>
+        <start>2009-05-12T23:08:00.603Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>594</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780682</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolDeletePropertyP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808864</jobStepId>
+        <stepName>PerlTimesP</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+use Time::HiRes qw(time);
+use ElectricCommander ();
+$ec = new ElectricCommander->new();
+$myStartTime = time;
+$prenow = $myStartTime;
+system "echo step OS overhead, expect under one second";
+$now = time;
+print "For echo        - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->getServerStatus({serverStateOnly => "true"});
+$now = time;
+print "getServerStatus - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->getProperty("projectName", {jobStepId => $ENV{COMMANDER_JOBSTEPID}});
+$now = time;
+print "getProperty     - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->setProperty("/myStep/timing", "scratch", {jobStepId => $ENV{COMMANDER_JOBSTEPID}});
+$now = time;
+print "setProperty     - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->deleteProperty("/myStep/timing", {jobStepId => $ENV{COMMANDER_JOBSTEPID}});
+$now = time;
+print "deleteProperty  - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.462Z</createTime>
+        <elapsedTime>5078</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:05.634Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>PerlTimesP.3808864.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>1</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>PerlTimesP.3808864-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:00.009Z</runnable>
+        <shell>ec-perl</shell>
+        <start>2009-05-12T23:08:00.556Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>547</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780683</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>PerlTimesP</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808865</jobStepId>
+        <stepName>ectoolParCleanup</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool deleteProperty timing
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.462Z</createTime>
+        <elapsedTime>8687</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:39.446Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolParCleanup.3808865.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolParCleanup.3808865-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:30.665Z</runnable>
+        <start>2009-05-12T23:08:30.759Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>94</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780684</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolParCleanup</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808866</jobStepId>
+        <stepName>EchoS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+echo set OS overhead, expect one second or under.
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.462Z</createTime>
+        <elapsedTime>640</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:40.196Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>EchoS.3808866.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.868Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>EchoS.3808866-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:39.462Z</runnable>
+        <start>2009-05-12T23:08:39.556Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>94</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780685</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>EchoS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808867</jobStepId>
+        <stepName>ectoolVersionS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool --version
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.462Z</createTime>
+        <elapsedTime>6657</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:46.978Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolVersionS.3808867.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.884Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolVersionS.3808867-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:40.228Z</runnable>
+        <start>2009-05-12T23:08:40.321Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>93</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780686</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolVersionS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808868</jobStepId>
+        <stepName>ectoolDatabaseS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool getServerStatus --serverStateOnly true
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.462Z</createTime>
+        <elapsedTime>10250</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:08:57.368Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolDatabaseS.3808868.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.884Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolDatabaseS.3808868-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:46.993Z</runnable>
+        <start>2009-05-12T23:08:47.118Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>125</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780687</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolDatabaseS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808869</jobStepId>
+        <stepName>ectoolGetPropertyS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool getProperty projectName
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.478Z</createTime>
+        <elapsedTime>8140</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:09:05.649Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolGetPropertyS.3808869.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.884Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolGetPropertyS.3808869-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:08:57.399Z</runnable>
+        <start>2009-05-12T23:08:57.509Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>110</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780688</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolGetPropertyS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808870</jobStepId>
+        <stepName>ectoolSetPropertyS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool setProperty timing "scratch"
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.478Z</createTime>
+        <elapsedTime>10953</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:09:16.712Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolSetPropertyS.3808870.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.884Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolSetPropertyS.3808870-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:09:05.681Z</runnable>
+        <start>2009-05-12T23:09:05.759Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>78</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780689</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolSetPropertyS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+        <propertySheet>
+          <propertySheetId>2979274</propertySheetId>
+          <createTime>2009-05-12T23:09:14.915Z</createTime>
+          <lastModifiedBy>project: Support</lastModifiedBy>
+          <modifyTime>2009-05-12T23:09:14.931Z</modifyTime>
+          <owner>project: Support</owner>
+          <aclId>6780694</aclId>
+          <property>
+            <propertyId>8956344</propertyId>
+            <propertyName>timing</propertyName>
+            <createTime>2009-05-12T23:09:14.915Z</createTime>
+            <expandable>1</expandable>
+            <lastModifiedBy>project: Support</lastModifiedBy>
+            <modifyTime>2009-05-12T23:09:14.915Z</modifyTime>
+            <owner>project: Support</owner>
+            <value>scratch</value>
+          </property>
+        </propertySheet>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808871</jobStepId>
+        <stepName>ectoolDeletePropertyS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+ectool deleteProperty timing
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.478Z</createTime>
+        <elapsedTime>12594</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:09:29.446Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>ectoolDeleteProperty.3808871.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.884Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>ectoolDeleteProperty.3808871-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:09:16.743Z</runnable>
+        <start>2009-05-12T23:09:16.852Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>109</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780690</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>ectoolDeletePropertyS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <jobStep>
+        <jobStepId>3808872</jobStepId>
+        <stepName>PerlTimesS</stepName>
+        <alwaysRun>0</alwaysRun>
+        <assignedResourceName>local</assignedResourceName>
+        <broadcast>0</broadcast>
+        <command>
+use Time::HiRes qw(time);
+use ElectricCommander ();
+$ec = new ElectricCommander->new();
+$myStartTime = time;
+$prenow = $myStartTime;
+system "echo step OS overhead, expect under one second";
+$now = time;
+print "For echo        - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->getServerStatus({serverStateOnly => "true"});
+$now = time;
+print "getServerStatus - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->getProperty("projectName", {jobStepId => $ENV{COMMANDER_JOBSTEPID}});
+$now = time;
+print "getProperty     - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->setProperty("/myStep/timing", "scratch", {jobStepId => $ENV{COMMANDER_JOBSTEPID}});
+$now = time;
+print "setProperty     - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+$prenow = $now;
+$ec->deleteProperty("/myStep/timing", {jobStepId => $ENV{COMMANDER_JOBSTEPID}});
+$now = time;
+print "deleteProperty  - current time $now, command time ", $now-$prenow, "sec, elapsed time ", $now-$myStartTime, "sec\n";
+</command>        <condition>1</condition>
+        <createTime>2009-05-12T23:07:45.478Z</createTime>
+        <elapsedTime>3140</elapsedTime>
+        <errorHandling>failProcedure</errorHandling>
+        <exclusive>0</exclusive>
+        <exitCode>0</exitCode>
+        <finish>2009-05-12T23:09:32.696Z</finish>
+        <hostName>localhost</hostName>
+        <lastModifiedBy>admin</lastModifiedBy>
+        <logFileName>PerlTimesS.3808872.log</logFileName>
+        <modifyTime>2009-05-12T23:09:32.884Z</modifyTime>
+        <outcome>success</outcome>
+        <owner>project: Support</owner>
+        <parallel>0</parallel>
+        <postExitCode>0</postExitCode>
+        <postLogFileName>PerlTimesS.3808872-postp.log</postLogFileName>
+        <releaseExclusive>0</releaseExclusive>
+        <resourceName>local</resourceName>
+        <retries>0</retries>
+        <runnable>2009-05-12T23:09:29.477Z</runnable>
+        <shell>ec-perl</shell>
+        <start>2009-05-12T23:09:29.556Z</start>
+        <status>completed</status>
+        <timeLimit />
+        <waitTime>79</waitTime>
+        <workspaceName>default</workspaceName>
+        <aclId>6780691</aclId>
+        <jobId>169520</jobId>
+        <jobName>job_169520_200905121607</jobName>
+        <liveProcedureStep>PerlTimesS</liveProcedureStep>
+        <procedureName>Simple</procedureName>
+        <projectName>Support</projectName>
+      </jobStep>
+      <workspace>
+        <workspaceId>51</workspaceId>
+        <workspaceName>default</workspaceName>
+        <createTime>2007-05-26T01:19:21.850Z</createTime>
+        <description>Workspace used for jobs using the default workspace -- a subdirectory of the chronic3build workspace.</description>
+        <lastModifiedBy>tanay</lastModifiedBy>
+        <modifyTime>2008-04-13T00:02:18.853Z</modifyTime>
+        <owner>admin</owner>
+        <unix>/net/f2scratch/chronic3build/default/job_169520_200905121607</unix>
+        <winDrive>O:/job_169520_200905121607</winDrive>
+        <winUNC>//f2/scratch/chronic3build/default/job_169520_200905121607</winUNC>
+        <workspaceDisabled>0</workspaceDisabled>
+        <aclId>129628</aclId>
+        <propertySheetId>50875</propertySheetId>
+      </workspace>
+    </job>
+  </response>
